@@ -1,0 +1,4 @@
+1.DOM means Document Object Model. Programing interface. The document as nodes and object  represent by DOM.
+
+2. TagName,id,className.
+3.first go target element then reaches DOM.
