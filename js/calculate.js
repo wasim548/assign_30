@@ -1,7 +1,7 @@
 document.getElementById('blog').addEventListener('click',function(){
     window.location.href = "blog.txt"
 })
-
+// triangle calculate function
 document.getElementById('btn-triangle').addEventListener('click',function(){
     const w = getInputFieldValueById('triangle-w');
     console.log(w);
@@ -11,7 +11,7 @@ document.getElementById('btn-triangle').addEventListener('click',function(){
     setTextElementValueById('area-calculate',triangle);
     
 })
-
+// rectangle calculate
 document.getElementById('btn-rectangle').addEventListener('click',function(){
     const w = getInputFieldValueById('rectangle-w');
     const l = getInputFieldValueById('rectangle-l');
@@ -19,7 +19,7 @@ document.getElementById('btn-rectangle').addEventListener('click',function(){
     setTextElementValueById('area-calculate',rectangle);
     
 })
-
+//  parallelogram calculat
 
 document.getElementById('btn-parallelogram').addEventListener('click',function(){
     const b = getInputFieldValueById('parallelogram-b');
@@ -28,7 +28,7 @@ document.getElementById('btn-parallelogram').addEventListener('click',function()
     setTextElementValueById('area-calculate',parallelogram);
     
 })
-
+// rhombus calculate
 document.getElementById('btn-rhombus').addEventListener('click',function(){
     const d1 = getInputFieldValueById('rhombus-d1');
     const d2 = getInputFieldValueById('rhombus-d2');
@@ -36,7 +36,7 @@ document.getElementById('btn-rhombus').addEventListener('click',function(){
     setTextElementValueById('area-calculate',rhombus);
     
 })
-
+// pentagon calculate
 document.getElementById('btn-pentagon').addEventListener('click',function(){
     const p = getInputFieldValueById('pentagon-p');
     const b = getInputFieldValueById('pentagon-b');
@@ -44,7 +44,7 @@ document.getElementById('btn-pentagon').addEventListener('click',function(){
     setTextElementValueById('area-calculate',pentagon);
     
 })
-
+// ellipse calculate
 document.getElementById('btn-ellipse').addEventListener('click',function(){
     const a = getInputFieldValueById('ellipse-a');
     const b = getInputFieldValueById('ellipse-b');
